@@ -87,15 +87,15 @@ We host an official website for streamlined navigation and well-organized resour
 ## Overview 概览
 This repository uses the framework from our survey paper to systematically organize the field of Spatial Intelligence in VLMs.
 <br>本仓库采用综述论文提出的框架，系统梳理视觉—语言模型中的空间智能研究。
-- **The “What”: A Cognitive Hierarchy<br>“是什么”：认知层级** 🧩  
+- **The “What”: A Cognitive Hierarchy “是什么”：认知层级** 🧩<br>
   We define spatial intelligence as a 3-level hierarchy, and group tasks, datasets, and benchmarks by required capability:  
   我们将空间智能划分为三个层级，并按照所需能力对任务、数据集和基准进行归类：<br>
   **L1** *Perception* of intrinsic 3D attributes (e.g., size, orientation) &rarr; **L2** relational *Understanding* &rarr; **L3** *Extrapolation* (e.g., hidden-state inference, future prediction).
   <br>**L1** 对固有三维属性的*感知*（如尺寸、朝向）&rarr; **L2** 对空间关系的*理解* &rarr; **L3** *外推*（如隐藏状态推断、未来预测）。
-- **The “How”: A Taxonomy of Methods<br>“怎么做”：方法分类体系** 🚀  
+- **The “How”: A Taxonomy of Methods “怎么做”：方法分类体系** 🚀<br>
   Methods are organized into five families, giving you a clear map of the current landscape. See details in [🚀 Awesome Papers 精选论文](#-awesome-papers).
   <br>我们将方法划分为五大类，从而清晰呈现当前研究版图。详见[🚀 Awesome Papers 精选论文](#-awesome-papers)。
-- **Where We Are: Evaluation Results and Toolkit<br>现状：评估结果与工具包** 🏆  
+- **Where We Are: Evaluation Results and Toolkit 现状：评估结果与工具包** 🏆<br>
   See how current models perform! 
   <br>了解当前模型的表现！
   - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
@@ -114,7 +114,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### Training-Free Prompting 免训练提示方法
 <a id="textual-prompting-methods"></a>
 <details>
-  <summary><b>Textual Prompting Methods<br>文本提示方法</b></summary>
+  <summary><b>Textual Prompting Methods 文本提示方法</b></summary>
 
   - [CoRR2025] SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation<br>到目前为止：以语言为基础的方向连接空间推理和对象操作 (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2502.13143) [[code]](https://github.com/qizekun/SoFar);
 
@@ -130,7 +130,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="visual-prompting-methods"></a>
 <details>
-  <summary><b>Visual Prompting Methods<br>视觉提示方法</b></summary>
+  <summary><b>Visual Prompting Methods 视觉提示方法</b></summary>
 
   - [arXiv2026] Think3D: Thinking with Space for Spatial Reasoning<br>Think3D：用空间思考进行空间推理 (_Dalian University of Technology_) [[paper]](https://arxiv.org/pdf/2601.13029) [[code]](https://github.com/zhangzaibin/spagent) [[checkpoint]](https://huggingface.co/jialianjie/SPAgent-4B);
 
@@ -157,7 +157,7 @@ This repository uses the framework from our survey paper to systematically organ
 <a id="hybrid-prompting"></a>
 
 <details>
-  <summary><b>Hybrid Prompting<br>混合提示方法</b></summary>
+  <summary><b>Hybrid Prompting 混合提示方法</b></summary>
   - [arXiv2026] CoV: Chain-of-View Prompting for Spatial Reasoning<br>CoV：促进空间推理的视图链 (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2601.05172) [[code]](https://github.com/ziplab/CoV?tab=readme-ov-file);
 
   - [arXiv2025] SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models<br>SpatialPrompting：使用现成的多模态大语言模型进行关键帧驱动的零样本空间推理 (_Toyota Central R&D Labs_) [[paper]](https://arxiv.org/pdf/2505.04911v1);
@@ -181,7 +181,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### Model-Centric Enhancements 模型中心增强
 <a id="advanced-training-strategies"></a>
 <details>
-  <summary><b>Advanced Training Strategies<br>高级训练策略</b></summary>
+  <summary><b>Advanced Training Strategies 高级训练策略</b></summary>
 
   - [AAAI2026] SIFThinker: Spatially-Aware Image Focus for Visual Reasoning<br>SIFThinker：用于视觉推理的空间感知图像聚焦 (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2508.06259) [[code]](https://github.com/zhangquanchen/SIFThinker?tab=readme-ov-file);
 
@@ -245,7 +245,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="architectural-enhancements"></a>
 <details>
-  <summary><b>Architectural Enhancements<br>架构增强</b></summary>
+  <summary><b>Architectural Enhancements 架构增强</b></summary>
 
   - [arXiv2025] Cambrian-S: Towards Spatial Supersensing in Video<br>Cambrian-S：迈向视频中的空间超感 (_New York University_) [[paper]](https://arxiv.org/pdf/2511.04670) [[code]](https://github.com/cambrian-mllm/cambrian-s) [[checkpoint]](https://huggingface.co/collections/nyu-visionx/cambrian-s-models);
 
@@ -264,7 +264,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="encoder-level-improvements"></a>
 <details>
-  <summary><b>Encoder-Level Improvements<br>编码器层级改进</b></summary>
+  <summary><b>Encoder-Level Improvements 编码器层级改进</b></summary>
 
   - [arXiv2025] Introducing Visual Perception Token into Multimodal Large Language Model<br>将视觉感知令牌引入多模态大语言模型 (_National University of Singapore_) [[paper]](https://arxiv.org/pdf/2502.17425) [[code]](https://github.com/yu-rp/VisualPerceptionToken?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/collections/rp-yu/vpt-models-67b6afdc8679a05a2876f07a);
 
@@ -292,7 +292,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### Explicit 2D Information Injection 显式二维信息注入
 <a id="object-region-guidance"></a>
 <details>
-  <summary><b>Object Region Guidance<br>目标区域引导</b></summary>
+  <summary><b>Object Region Guidance 目标区域引导</b></summary>
 
   - [arXiv2025] Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects<br>歌词：通过语义感知的视觉对象促进细粒度的语言视觉对齐和理解 (_International Digital Economy Academy_) [[paper]](https://arxiv.org/pdf/2312.05278);
 
@@ -316,7 +316,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="explicit-spatial-relationship"></a>
 <details>
-  <summary><b>Explicit Spatial Relationship<br>显式空间关系</b></summary>
+  <summary><b>Explicit Spatial Relationship 显式空间关系</b></summary>
 
   - [arXiv2025] Object-centric Binding in Contrastive Language-Image Pretraining<br>对比语言-图像预训练中的以对象为中心的绑定 (_Meta_) [[paper]](https://arxiv.org/pdf/2502.14113);
 
@@ -333,7 +333,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### 3D Information Enhancement 三维信息增强
 <a id="explicit-3d-geometric-representations"></a>
 <details>
-  <summary><b>Explicit 3D Geometric Representations<br>显式三维几何表示</b></summary>
+  <summary><b>Explicit 3D Geometric Representations 显式三维几何表示</b></summary>
 
   - [arXiv2025] Spatial 3D-LLM: Progressive Spatial Awareness for Advanced 3D Vision-Language Understanding<br>空间 3D-大语言模型：先进的 3D 视觉—语言理解的渐进式空间意识 (_Beijing Digital Native Digital City Research Center_) [[paper]](https://openreview.net/pdf?id=JzLcKWtGnl);
 
@@ -376,7 +376,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="implicit-3d-from-egocentric-views"></a>
 <details>
-  <summary><b>Implicit 3D from Egocentric Views<br>来自第一视角的隐式三维信息</b></summary>
+  <summary><b>Implicit 3D from Egocentric Views 来自第一视角的隐式三维信息</b></summary>
 
   - [arXiv2026] Spa3R: Predictive Spatial Field Modeling for 3D Visual Reasoning<br>Spa3R：用于 3D 视觉推理的预测空间场建模 (_Huazhong University of Science & Technology_) [[paper]](https://arxiv.org/pdf/2602.21186) [[code]](https://github.com/hustvl/Spa3R) [[checkpoint]](https://huggingface.co/hustvl/Spa3-VLM)
 
@@ -400,7 +400,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="scene-level-information--ego-centric"></a>
 <details>
-  <summary><b>Scene-level Information + Ego-centric<br>场景级信息与第一视角</b></summary>
+  <summary><b>Scene-level Information + Ego-centric 场景级信息与第一视角</b></summary>
 
   - [arXiv2025] GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models<br>GPT4Scene：使用视觉—语言模型从视频中理解 3D 场景 (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2501.01428) [[code]](https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1) [[checkpoint]](https://huggingface.co/alexzyqi/GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512);
 
@@ -434,7 +434,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### Data-Centric Spatial Enhancement 数据中心空间能力增强
 <a id="manifesting-spatial-relations-in-2d-images"></a>
 <details>
-  <summary><b>Manifesting Spatial Relations in 2D Images<br>在二维图像中呈现空间关系</b></summary>
+  <summary><b>Manifesting Spatial Relations in 2D Images 在二维图像中呈现空间关系</b></summary>
 
   - [arXiv2025] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data<br>SpaRE：利用合成数据增强视觉—语言模型的空间推理 (_University of Waterloo_) [[paper]](https://arxiv.org/pdf/2504.20648);
 
@@ -455,7 +455,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
 <details>
-  <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds<br>在三维与合成世界中呈现空间先验</b></summary>
+  <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds 在三维与合成世界中呈现空间先验</b></summary>
 
   - [arXiv2025] Multi-SpatialMLLM: Multi-Frame Spatial Understanding with MultiModal Large Language Models<br>Multi-Spatial多模态大语言模型：使用多模态大语言模型进行多帧空间理解 (_Meta FAIR_) [[paper]](https://arxiv.org/pdf/2505.17015) [[code]](https://github.com/facebookresearch/Multi-SpatialMLLM?tab=readme-ov-file#-model-training);
 
@@ -560,16 +560,16 @@ We invite the community to benchmark new models using our suite. Please to add y
      <br>[通用 VLM](evaluation/Commercial_General/README.md)（例如 Qwen2.5、LLaVA 1.5、LLaVA-NeXT、LLaVA-OneVision）<br>
    - Specialized Spatial VLMs:  
      <br>专用空间 VLM：<br>
-      (1) [Train-Free Promptings](evaluation/Train_Free_Promptings/README.md)  
-      (1) [免训练提示方法](evaluation/Train_Free_Promptings/README.md)<br>
-      (2) [Model-Centric Enhancement](evaluation/Model_Centric/README.md)  
-      (2) [模型中心增强](evaluation/Model_Centric/README.md)<br>
-      (3) [Explicit 2D Information Injection](evaluation/2D_Information/README.md)  
-      (3) [显式二维信息注入](evaluation/2D_Information/README.md)<br>
-      (4) [3D Spatial Information Enhancement](evaluation/3D_Information/README.md)  
-      (4) [三维空间信息增强](evaluation/3D_Information/README.md)<br>
-      (5) [Data-Centric Spatial Enhancement](evaluation/Data_Centric/README.md)
-      (5) [数据中心空间能力增强](evaluation/Data_Centric/README.md)
+      (1) [Train-Free Promptings](evaluation/Train_Free_Promptings/README.md)<br>
+      [免训练提示方法](evaluation/Train_Free_Promptings/README.md)<br>
+      (2) [Model-Centric Enhancement](evaluation/Model_Centric/README.md)<br>
+      [模型中心增强](evaluation/Model_Centric/README.md)<br>
+      (3) [Explicit 2D Information Injection](evaluation/2D_Information/README.md)<br>
+      [显式二维信息注入](evaluation/2D_Information/README.md)<br>
+      (4) [3D Spatial Information Enhancement](evaluation/3D_Information/README.md)<br>
+      [三维空间信息增强](evaluation/3D_Information/README.md)<br>
+      (5) [Data-Centric Spatial Enhancement](evaluation/Data_Centric/README.md)<br>
+      [数据中心空间能力增强](evaluation/Data_Centric/README.md)
 
 
    Follow the instructions there to plug in your own model and report results under the same protocol as our leaderboard.
