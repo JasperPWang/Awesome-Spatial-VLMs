@@ -3,13 +3,13 @@
 > 本中英对照版从上游 `README.md` 派生；原始英文版保持不变，以便后续同步。
 
 <div align="center">
-  <h1> Awesome Spatial VLMs </h1>
+  <h1> Awesome Spatial VLMs 空间视觉—语言模型精选资源 </h1>
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge" style="vertical-align: middle;"> </a> <a href="https://github.com/DishengLL/Awesome-Spatial-VLMs/commits/main/"> <img src="https://img.shields.io/github/last-commit/DishengLL/Awesome-Spatial-VLMs" alt="GitHub Last Commit" style="vertical-align: middle;"></a>
 </div>
 
 <p align="center">
   <video src="https://github.com/DishengLL/Awesome-Spatial-VLMs/raw/main/spatial_survey.mov" width="88%" controls autoplay muted loop>
-    Your browser does not support the video tag.
+    Your browser does not support the video tag.<br>你的浏览器不支持 video 标签。
   </video>
 </p>
 
@@ -35,10 +35,14 @@
   </p> -->
 
 >A curated hub for Spatial Intelligence in Vision-Language Models.   
+>面向视觉—语言模型空间智能研究的精选资源中心。<br>
 >Actively maintained—watch for updates, benchmark your VLM with our evaluation code, and consider starring 🌟 and sharing if helpful.
+>本仓库持续维护中——欢迎关注后续更新，使用我们的评测代码测试你的 VLM；如果这些内容对你有帮助，也欢迎点亮 Star 🌟 并分享。
 
 This repository is the official, community-maintained resource for our survey paper:  **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**.  
+本仓库是我们的综述论文 **《视觉—语言模型中的空间智能：一项综合综述》** 的官方社区维护资源。<br>
 We host an official website for streamlined navigation and well-organized resources: 👉 [Website 🔗](https://dishengll.github.io/Awesome-Spatial-VLMs/)
+我们还提供了一个官方网页，以便更高效地浏览经过系统整理的资源：👉 [网站 🔗](https://dishengll.github.io/Awesome-Spatial-VLMs/)
 
 <p align="center">
   <a href="./website.png">
@@ -59,6 +63,7 @@ We host an official website for streamlined navigation and well-organized resour
 </p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
+<br>🤝 本仓库将持续更新，也诚挚欢迎社区贡献。**如果你希望补充论文、数据集或模型，请提交 Pull Request，或创建 Issue 参与讨论。**
 
 
 ## Table of Contents 目录
@@ -73,7 +78,7 @@ We host an official website for streamlined navigation and well-organized resour
 - [📚 Datasets and Benchmarks 数据集与基准](#-datasets-and-benchmarks)
   - [Spatially-Oriented Training Corpora 面向空间能力的训练语料](#spatially-oriented-training-corpora)
   - [Evaluation Benchmarks 评估基准](#evaluation-benchmarks)
-- [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
+- [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit 空间视觉—语言模型排行榜与评估工具包](#-spatial-vlm-leaderboard--evaluation-toolkit)
   - [🏅 Main Leaderboard 主排行榜](#-main-leaderboard)
   - [🧑‍🔬 How to Evaluate Your Model 如何评估你的模型](#-how-to-evaluate-your-model)
 - [Citation 引用](#citation)
@@ -81,15 +86,22 @@ We host an official website for streamlined navigation and well-organized resour
 
 ## Overview 概览
 This repository uses the framework from our survey paper to systematically organize the field of Spatial Intelligence in VLMs.
+<br>本仓库采用综述论文提出的框架，系统梳理视觉—语言模型中的空间智能研究。
 - **The “What”: A Cognitive Hierarchy<br>“是什么”：认知层级** 🧩  
   We define spatial intelligence as a 3-level hierarchy, and group tasks, datasets, and benchmarks by required capability:  
+  我们将空间智能划分为三个层级，并按照所需能力对任务、数据集和基准进行归类：<br>
   **L1** *Perception* of intrinsic 3D attributes (e.g., size, orientation) &rarr; **L2** relational *Understanding* &rarr; **L3** *Extrapolation* (e.g., hidden-state inference, future prediction).
+  <br>**L1** 对固有三维属性的*感知*（如尺寸、朝向）&rarr; **L2** 对空间关系的*理解* &rarr; **L3** *外推*（如隐藏状态推断、未来预测）。
 - **The “How”: A Taxonomy of Methods<br>“怎么做”：方法分类体系** 🚀  
   Methods are organized into five families, giving you a clear map of the current landscape. See details in [🚀 Awesome Papers 精选论文](#-awesome-papers).
+  <br>我们将方法划分为五大类，从而清晰呈现当前研究版图。详见[🚀 Awesome Papers 精选论文](#-awesome-papers)。
 - **Where We Are: Evaluation Results and Toolkit<br>现状：评估结果与工具包** 🏆  
   See how current models perform! 
+  <br>了解当前模型的表现！
   - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
+    <br>**标准化排行榜：** 我们报告了 **37+ 个 VLM** 在 L1/L2/L3 各层级任务上的评测结果。
   - **Open Evaluation Toolkit:** Reproduce our protocols and **evaluate your own models** under the same settings.
+    <br>**开放评测工具包：** 复现我们的评测流程，并在相同设置下**评估你自己的模型**。
 
 <div align='center'><img src="./samples/outline.jpg"  alt="Overview Diagram" width="95%"/></div>
 
@@ -252,7 +264,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="encoder-level-improvements"></a>
 <details>
-  <summary><b>Encoder-Level Improvements</b></summary>
+  <summary><b>Encoder-Level Improvements<br>编码器层级改进</b></summary>
 
   - [arXiv2025] Introducing Visual Perception Token into Multimodal Large Language Model<br>将视觉感知令牌引入多模态大语言模型 (_National University of Singapore_) [[paper]](https://arxiv.org/pdf/2502.17425) [[code]](https://github.com/yu-rp/VisualPerceptionToken?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/collections/rp-yu/vpt-models-67b6afdc8679a05a2876f07a);
 
@@ -280,7 +292,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### Explicit 2D Information Injection 显式二维信息注入
 <a id="object-region-guidance"></a>
 <details>
-  <summary><b>Object Region Guidance</b></summary>
+  <summary><b>Object Region Guidance<br>目标区域引导</b></summary>
 
   - [arXiv2025] Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects<br>歌词：通过语义感知的视觉对象促进细粒度的语言视觉对齐和理解 (_International Digital Economy Academy_) [[paper]](https://arxiv.org/pdf/2312.05278);
 
@@ -304,7 +316,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="explicit-spatial-relationship"></a>
 <details>
-  <summary><b>Explicit Spatial Relationship</b></summary>
+  <summary><b>Explicit Spatial Relationship<br>显式空间关系</b></summary>
 
   - [arXiv2025] Object-centric Binding in Contrastive Language-Image Pretraining<br>对比语言-图像预训练中的以对象为中心的绑定 (_Meta_) [[paper]](https://arxiv.org/pdf/2502.14113);
 
@@ -321,7 +333,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### 3D Information Enhancement 三维信息增强
 <a id="explicit-3d-geometric-representations"></a>
 <details>
-  <summary><b>Explicit 3D Geometric Representations</b></summary>
+  <summary><b>Explicit 3D Geometric Representations<br>显式三维几何表示</b></summary>
 
   - [arXiv2025] Spatial 3D-LLM: Progressive Spatial Awareness for Advanced 3D Vision-Language Understanding<br>空间 3D-大语言模型：先进的 3D 视觉—语言理解的渐进式空间意识 (_Beijing Digital Native Digital City Research Center_) [[paper]](https://openreview.net/pdf?id=JzLcKWtGnl);
 
@@ -364,7 +376,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="implicit-3d-from-egocentric-views"></a>
 <details>
-  <summary><b>Implicit 3D from Egocentric Views</b></summary>
+  <summary><b>Implicit 3D from Egocentric Views<br>来自第一视角的隐式三维信息</b></summary>
 
   - [arXiv2026] Spa3R: Predictive Spatial Field Modeling for 3D Visual Reasoning<br>Spa3R：用于 3D 视觉推理的预测空间场建模 (_Huazhong University of Science & Technology_) [[paper]](https://arxiv.org/pdf/2602.21186) [[code]](https://github.com/hustvl/Spa3R) [[checkpoint]](https://huggingface.co/hustvl/Spa3-VLM)
 
@@ -388,7 +400,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="scene-level-information--ego-centric"></a>
 <details>
-  <summary><b>Scene-level Information + Ego-centric</b></summary>
+  <summary><b>Scene-level Information + Ego-centric<br>场景级信息与第一视角</b></summary>
 
   - [arXiv2025] GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models<br>GPT4Scene：使用视觉—语言模型从视频中理解 3D 场景 (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2501.01428) [[code]](https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1) [[checkpoint]](https://huggingface.co/alexzyqi/GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512);
 
@@ -422,7 +434,7 @@ This repository uses the framework from our survey paper to systematically organ
 ### Data-Centric Spatial Enhancement 数据中心空间能力增强
 <a id="manifesting-spatial-relations-in-2d-images"></a>
 <details>
-  <summary><b>Manifesting Spatial Relations in 2D Images</b></summary>
+  <summary><b>Manifesting Spatial Relations in 2D Images<br>在二维图像中呈现空间关系</b></summary>
 
   - [arXiv2025] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data<br>SpaRE：利用合成数据增强视觉—语言模型的空间推理 (_University of Waterloo_) [[paper]](https://arxiv.org/pdf/2504.20648);
 
@@ -443,7 +455,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
 <details>
-  <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds</b></summary>
+  <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds<br>在三维与合成世界中呈现空间先验</b></summary>
 
   - [arXiv2025] Multi-SpatialMLLM: Multi-Frame Spatial Understanding with MultiModal Large Language Models<br>Multi-Spatial多模态大语言模型：使用多模态大语言模型进行多帧空间理解 (_Meta FAIR_) [[paper]](https://arxiv.org/pdf/2505.17015) [[code]](https://github.com/facebookresearch/Multi-SpatialMLLM?tab=readme-ov-file#-model-training);
 
@@ -480,6 +492,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 ## 📚 Datasets and Benchmarks 数据集与基准
 > A comprehensive list of datasets for training and evaluation.
+> 用于训练和评估的数据集完整列表。
 
 ### Spatially-Oriented Training Corpora 面向空间能力的训练语料
 <p align="left">
@@ -500,52 +513,67 @@ This repository uses the framework from our survey paper to systematically organ
 ## 🏆 Spatial VLM Leaderboard & Evaluation Toolkit 空间视觉—语言模型排行榜与评估工具包
 ### 🏅 Main Leaderboard 主排行榜
 The table below presents the main results from our survey, comparing [38 VLMs](evaluation/README.md#model-details-and-original-repositories) across [9 benchmarks](#evaluated-benchmarks). Scores are QA Accuracy (%). Benchmarks are grouped by our Cognitive Hierarchy.
+<br>下表展示了综述中的主要评测结果，在 [9 个基准](#evaluated-benchmarks)上比较了 [38 个 VLM](evaluation/README.md#model-details-and-original-repositories)。分数采用问答准确率（%），各项基准按照我们的认知层级进行分组。
 
 <div align='center'><img src="./samples/leaderboard.jpg"  alt="Leaderboard" width="100%"/></div>
 
 We invite the community to benchmark new models using our suite. Please to add your model's results!
+<br>我们欢迎社区使用这套评测工具测试新模型，并提交你的模型结果！
 
 
 ### 🧑‍🔬 How to Evaluate Your Model 如何评估你的模型
-1. **Selected Benchmarks for the Leaderboard**  
+1. **Selected Benchmarks for the Leaderboard 排行榜选用的基准**<br>
     We collect existing spatial benchmarks used in the literature and standardize their usage for evaluation in the hugging face repo<a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20"/></a>.  
+    <br>我们收集了文献中已有的空间能力基准，并在 Hugging Face 仓库<a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20"/></a>中对其评测用法进行了标准化。<br>
     The table below summarizes the key datasets used to benchmark spatial VLMs on our leaderboard.  
+    <br>下表汇总了排行榜中用于评估空间 VLM 的主要数据集。<br>
     <a id="evaluated-benchmarks"></a>
     <table>
       <tr>
-        <th>Dataset Name</th>
-        <th>Description</th>
-        <th>Link</th>
+        <th>Dataset Name 数据集名称</th>
+        <th>Description 描述</th>
+        <th>Link 链接</th>
       </tr>
       <tr>
         <td>EgoOrientBench</td>
-        <td>Egocentric spatial understanding benchmark</td>
-        <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Link" width="20"/> Link</a></td>
+        <td>Egocentric spatial understanding benchmark<br>第一视角空间理解基准</td>
+        <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Link" width="20"/> Link 链接</a></td>
       </tr>
-      <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark</td></tr>
-      <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations</td></tr>
-      <tr><td>What’s Up</td><td>Spatial relation in visual grounding</td></tr>
-      <tr><td>CV-Bench</td><td>Visual-center spatial benchmark</td></tr>
-      <tr><td>SRBench</td><td>The extrapolation of spatial benchmark</td></tr>
-      <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
-      <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
-      <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
+      <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark<br>深度感知空间推理基准</td></tr>
+      <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations<br>专注于空间关系的子集</td></tr>
+      <tr><td>What’s Up</td><td>Spatial relation in visual grounding<br>视觉定位中的空间关系基准</td></tr>
+      <tr><td>CV-Bench</td><td>Visual-center spatial benchmark<br>以视觉为中心的空间能力基准</td></tr>
+      <tr><td>SRBench</td><td>The extrapolation of spatial benchmark<br>空间外推能力基准</td></tr>
+      <tr><td>MindCube</td><td>The extrapolation of spatial benchmark<br>空间外推能力基准</td></tr>
+      <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset<br>综合空间推理数据集</td></tr>
+      <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset<br>综合空间推理数据集</td></tr>
     </table>
 
-2. **Evaluation Toolkit**  
+2. **Evaluation Toolkit 评测工具包**<br>
    To facilitate fair and reproducible evaluation on these benchmarks, we provide a dedicated evaluation toolkit. The related code is available in [`evaluation/README.md`](evaluation/README.md).  
+   <br>为便于在这些基准上开展公平且可复现的评测，我们提供了专用评测工具包，相关代码位于 [`evaluation/README.md`](evaluation/README.md)。<br>
    It supports running experiments with:
+   <br>该工具包支持对以下模型和方法开展实验：
    - [Commercial VLMs](evaluation/Commercial_General/README.md) (*e.g.,* GPT, Gemini)
+     <br>[商业 VLM](evaluation/Commercial_General/README.md)（例如 GPT、Gemini）
    - [General-purpose VLMs](evaluation/Commercial_General/README.md) (*e.g.,* Qwen2.5, LLava1.5, LLava_Next, LLava_Onevision)   
+     <br>[通用 VLM](evaluation/Commercial_General/README.md)（例如 Qwen2.5、LLaVA 1.5、LLaVA-NeXT、LLaVA-OneVision）<br>
    - Specialized Spatial VLMs:  
+     <br>专用空间 VLM：<br>
       (1) [Train-Free Promptings](evaluation/Train_Free_Promptings/README.md)  
+      (1) [免训练提示方法](evaluation/Train_Free_Promptings/README.md)<br>
       (2) [Model-Centric Enhancement](evaluation/Model_Centric/README.md)  
+      (2) [模型中心增强](evaluation/Model_Centric/README.md)<br>
       (3) [Explicit 2D Information Injection](evaluation/2D_Information/README.md)  
+      (3) [显式二维信息注入](evaluation/2D_Information/README.md)<br>
       (4) [3D Spatial Information Enhancement](evaluation/3D_Information/README.md)  
+      (4) [三维空间信息增强](evaluation/3D_Information/README.md)<br>
       (5) [Data-Centric Spatial Enhancement](evaluation/Data_Centric/README.md)
+      (5) [数据中心空间能力增强](evaluation/Data_Centric/README.md)
 
 
    Follow the instructions there to plug in your own model and report results under the same protocol as our leaderboard.
+   <br>按照其中的说明接入你自己的模型，即可采用与排行榜一致的协议完成评测并报告结果。
 
 
 
@@ -554,6 +582,7 @@ We invite the community to benchmark new models using our suite. Please to add y
 
 ## Citation 引用
 If you find this survey or repository useful for your research, please cite our paper:
+<br>如果本综述或仓库对你的研究有所帮助，请引用我们的论文：
 ```
  @article{Liu_2025,
   title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
